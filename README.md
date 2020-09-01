@@ -1,18 +1,15 @@
-## 먼저 해볼 것
-- python web_fuzzer.py -h 하면 사용법 나옴
+## 입력값
+    python web_fuzzer.py -various_seed seed/sql/injection.txt -area_seed seed/sql/attact_area.txt
+    - various_seed 공격 다양화 시드파일 경로
+    - area_seed 공격 범위 시드파일 경로
 
-- wfuzz랑 크게 다를거 없이 출력 함
-- 입력값 ex) 
-    - python web_fuzzer.py -seed seed/sql/common.txt -url http://testphp.vulnweb.com/BOB.php
-    - python web_fuzzer.py -seed seed/sql/common.txt -cookie1 login=test%2Ftest -cookie2 aaaa=bbbb -url http://testphp.vulnweb.com/BOB.php
-    - python web_fuzzer.py -seed seed/sql/common.txt -post "uname=BOB&pass=test" -url http://testphp.vulnweb.com/userinfo.php
-## 현재 가능한 것
-- BOB(FUZZ할 곳)을 지정하여 fuzzing 가능(한 군데)
-- 옵션으로는 쿠키값 2개 줄 수 있음
+
+## 시드파일
+- @(FUZZ할 곳)을 지정하여 fuzzing 가능(한 군데)
+- 옵션으로는 시드파일 2개 줄 수 있음
 - GET, POST 둘 다 가능
+    - GET과 POST는 '?'로 구분 가능 
 
 ## 개선 필요한 것
-- BOB(FUZZ할 곳) 2개 이상 못함
-- 쿠키값을 2개밖에 못함
-- 일단 존나 느려, 개선 필요함
-- 옵션 추가 못한게 많음(일단은 필요한것만 해놓음)
+- 공격이 먹혔는지 안먹혔는지 알 수 없음
+- wireshark로 패킷이 잘 날라가는 것은 확인 가능
