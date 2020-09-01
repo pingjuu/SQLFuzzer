@@ -1,0 +1,15 @@
+http://ip/bWAPP/sqli_10-2.php?*title=@1
+http://ip/bWAPP/sqli_6.php*title=@1&action=search
+http://ip/bWAPP/sqli_3.php*login=@1&password=@2&form=submit
+http://ip/bWAPP/sqli_16.php*login=@1&password=@2&form=submit
+http://ip/bWAPP/sqli_11.php?*title=@1&action=search
+http://ip/bWAPP/sqli_7.php*entry=@1&blog=add
+http://ip/bWAPP/sqli_12.php*entry=@1&entry_add=add
+http://ip/bWAPP/sqli_4.php?*title=@1&action=search
+http://ip/bWAPP/sqli_15.php?*title=@1&action=search
+http://ip/bWAPP/sqli_9.php?*title=@1&action=search
+http://ip/bWAPP/sqli_14.php?*title=@1&action=search
+http://ip/bWAPP/sqli_5.php?*title=@1&action=go
+http://ip/bWAPP/sqli_1.php?*title=@1&action=search
+http://ip/bWAPP/sqli_2.php?*movie=@1&action=go
+http://ip/bWAPP/sqli_13.php*movie=@1&action=go

